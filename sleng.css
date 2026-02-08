@@ -1,77 +1,79 @@
-/* Жалпы параметрлер */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Негізгі стиль */
 body {
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: #f4f6f8;
-    color: #333;
-    line-height: 1.7;
+    font-family: 'Georgia', serif;
+    background-color: #2b1e1a;
+    color: #f5e6d3;
+    line-height: 1.8;
 }
 
-/* Header */
+nav {
+    background-color: #3b2a25;
+    padding: 18px 0;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.5);
+}
+
+nav ul {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    list-style: none;
+}
+
+nav a {
+    text-decoration: none;
+    color: #f5e6d3;
+}
+
+nav a:hover {
+    color: #d4af37;
+}
+
 header {
-    background-color: #1f6fd2;
-    color: white;
-    padding: 40px 20px;
+    background: linear-gradient(135deg, #3b2a25, #5a4035);
+    padding: 70px 20px;
     text-align: center;
 }
 
 header h1 {
-    font-size: 28px;
-    margin-bottom: 10px;
+    color: #d4af37;
 }
 
-header p {
-    max-width: 700px;
-    margin: 0 auto;
-    font-size: 16px;
-}
-
-/* Main контент */
 main {
-    max-width: 900px;
-    margin: 40px auto;
+    max-width: 1000px;
+    margin: 60px auto;
     padding: 0 20px;
 }
 
-/* Бөлімдер */
 section {
-    background-color: white;
-    padding: 25px;
-    margin-bottom: 25px;
-    border-radius: 8px;
-    transition: transform 0.25s ease, box-shadow 0.25s ease;
+    background-color: #3b2a25;
+    padding: 35px;
+    margin-bottom: 35px;
+    border-radius: 20px;
+    box-shadow: 0 15px 35px rgba(0,0,0,0.7);
 }
 
-section:hover {
-    transform: translateY(-3px);
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
-}
-
-/* Тақырыптар */
 section h2 {
-    color: #1f6fd2;
-    margin-bottom: 12px;
+    color: #d4af37;
+    margin-bottom: 15px;
 }
 
-/* Тізім */
 ul {
     padding-left: 20px;
 }
 
-ul li {
-    margin-bottom: 8px;
+ul li:hover {
+    color: #d4af37;
 }
 
-/* Footer */
 footer {
     text-align: center;
-    padding: 20px;
-    font-size: 14px;
-    color: #666;
+    padding: 30px;
+    background-color: #3b2a25;
 }
