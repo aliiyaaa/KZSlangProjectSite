@@ -12,7 +12,6 @@ body {
     line-height: 1.8;
 }
 
-/* ===== Навигация ===== */
 nav {
     background-color: #3b2a25;
     padding: 18px 0;
@@ -100,7 +99,6 @@ section {
     color: #e6cfa7;
 }
 
-/* ===== Footer ===== */
 footer {
     text-align: center;
     padding: 30px;

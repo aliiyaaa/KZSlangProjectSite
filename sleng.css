@@ -36,7 +36,7 @@ nav a:hover {
 }
 
 header {
-    background: linear-gradient(135deg, #3b2a25, #5a4035);
+    background: linear-gradient (135deg, #3b2a25, #5a4035);
     padding: 70px 20px;
     text-align: center;
 }
